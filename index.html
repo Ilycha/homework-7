@@ -82,23 +82,42 @@
             </svg>
           </button>
 
+          <!-- Форма -->
+
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
 
           <form class="form">
-            <div class="form-group">
-              <label for="name">Ім'я </label>
-              <input type="text" id="name" />
-            </div>
+            <label class="form-group" for="name"
+              >Ім'я
+              <span class="for-icon">
+                <input type="text" id="name" />
+                <svg class="icon-form" width="18px" height="18px">
+                  <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                </svg>
+              </span>
+            </label>
 
-            <div class="form-group">
-              <label for="tel">Телефон </label>
-              <input type="tel" id="tel" />
-            </div>
+            <label class="form-group" for="tel"
+              >Телефон
+              <span class="for-icon">
+                <input type="tel" id="tel" />
+                <svg class="icon-form" width="18px" height="18px">
+                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                </svg>
+              </span>
+            </label>
 
-            <div class="form-group">
-              <label for="mail">Пошта </label>
-              <input type="email" id="mail" />
-            </div>
+            <label class="form-group" for="mail"
+              >Пошта
+
+              <span class="for-icon">
+                <input type="email" id="mail" />
+
+                <svg class="icon-form" width="18px" height="18px">
+                  <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                </svg>
+              </span>
+            </label>
 
             <div class="form-group">
               <label for="coment">Коментар</label>
@@ -110,8 +129,9 @@
               ></textarea>
             </div>
 
-            <input type="checkbox" id="checkbox" />
-            <label for="checkbox">
+            <label class="label-checkbox">
+              <input class="checkbox" type="checkbox" />
+              <span class="custom-icon"></span>
               Погоджуюся з розсилкою та приймаю
               <a
                 href="https://www.google.com/"
