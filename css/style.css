@@ -480,14 +480,16 @@ header {
   margin-top: 20px;
 }
 
-.label-checkbox:focus .custom-icon {
-  box-shadow: var(--shadow-for-box);
-}
+
 
 .label-checkbox:hover .custom-icon {
   box-shadow: var(--shadow-for-box);
+  border: 2px solid #2196f3;
 }
-
+.checkbox:focus + .custom-icon{
+  box-shadow: var(--shadow-for-box);
+ border: 1px solid #2196f3;
+}
 .custom-icon {
   display: inline-flex;
   width: 16px;
@@ -518,10 +520,7 @@ header {
   border: 2px solid #2196f3;
   box-shadow: none;
 }
-.checkbox:focus + .custom-icon{
-  box-shadow: var(--shadow-for-box);
- border: 2px solid #2196f3;
-}
+
 
 .checkbox {
   position: absolute;
