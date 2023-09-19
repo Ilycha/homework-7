@@ -183,9 +183,11 @@ li {
   padding: 0;
   margin-right: 10px;
   transition: $transition;
-}
-.contact-header__connect:hover .contact-header__icon {
-  fill: $link-color;
+
+  
+  .contact-header__connect:hover & {
+    fill: $link-color;
+  }
 }
 
 // STYLES FOR HERO ============================
