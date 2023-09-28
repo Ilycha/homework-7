@@ -104,6 +104,9 @@ li {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-list__linc--current {
+  color: #2196f3;
+}
 .header-list__linc--current::after {
   content: "";
   display: block;
@@ -160,6 +163,7 @@ li {
   padding: 0;
   margin-right: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #757575;
 }
 .contact-header__connect:hover .contact-header__icon {
   fill: #2196f3;
@@ -541,7 +545,7 @@ li {
 .footer-sotial__title {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
@@ -589,7 +593,7 @@ li {
 .follow-footer__title {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;

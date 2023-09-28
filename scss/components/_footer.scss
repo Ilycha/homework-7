@@ -70,9 +70,8 @@
 .footer-sotial__title {
   margin: 0 0 20px 0;
   color: $title-inversion-color;
-  font-family: Roboto;
+  font-family: $main-font;
   font-size: 14px;
-
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -115,7 +114,7 @@
 .follow-footer__title {
   margin: 0 0 20px 0;
   color: $title-inversion-color;
-  font-family: Roboto;
+  font-family: $main-font;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
